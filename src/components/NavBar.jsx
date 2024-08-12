@@ -18,7 +18,7 @@ export default function NavBar() {
           <img className="w-24 h-20  md:w-20" src={logo} alt="" />
           </Link>
         </div>
-        <div className="flex text-xl items-center lg:text-3xl gap-2 "> One Stop Destination !</div>
+        <div className="flex text-xl text-green-500 items-center lg:text-3xl gap-2 "> One Stop Destination !</div>
 
         <div className=" flex items-center gap-2 md:gap-5">
             <Link className="relative px-1 py-1" to="/wishlist">
